@@ -1,0 +1,81 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(246, 239, 239);
+}
+
+body{
+    background-image:url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;  
+}
+.header h1{
+    font: bold;
+}
+.rules{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 10px;
+    border:4px solid #000;
+    text-align: justify;
+    box-shadow: 0 0 20px 4px rgb(250, 99, 250);
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;  
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.button1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.num{
+    color: #000;
+}
+.btn{
+    color: #000;
+    width: 120px;
+    height: 30px;
+}
+.predict{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;   
+}
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;   
+}
+.startnew {
+    color: #000;
+    display: none;
+    width: 150px;
+    height: 30px;
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;   
+    margin: 0 auto;
+} 

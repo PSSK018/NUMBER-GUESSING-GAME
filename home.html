@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Game</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h1 class="h1">NUMBER GUESSING GAME</h1>
+        </div>
+        <div class="hero">
+            <div class="rules">
+                <p class="rules-para">Rules of number game:<br>
+                    1.You need to predict integers from 1 to 100.<br>2.You have to do it with 10 or lesser tries.<br>3.If you take more than 10 tries you are lost.<br>4.Try to predict it right on the go.<br>5.We will tell your guess was too high or too low.<br>
+            </p>
+        </div>
+        <div class="info">
+            <p>
+                <h3>HAPPY GAMING!</h3>
+            </p>
+        </div>
+        <div class="input">
+            <p>Enter your predicted number : </p><input class="num" id="number" type="number"></input>
+        </div>
+        <div class="button1">
+            <button class="btn" type="submit" onclick="result()">Submit Guess</button>
+        </div>
+        <div class="predict">
+            <p id="predictions"></p>
+        </div>
+        <div class="result">
+            <p id="ans"></p>
+        </div>
+        <div class="start">
+            <button id="startnew"class="startnew" onclick="location.reload()">Start new game</button>
+        </div>
+        <div >
+    </div>
+</div>
+    
+</body>
+</html>
